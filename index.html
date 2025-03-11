@@ -4,13 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PH-Tube</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    <header>
+      <!-- navbar  -->
+      <nav
+        class="w-11/12 mx-auto flex justify-between border-b-2 py-5 border-[#17171720]"
+      >
+        <div class="logo">
+          <img class="w-[120px]" src="assets/img/Logo.png" alt="logo" />
+        </div>
+        <div class="sort">
+          <button class="sort-btn btn">Sort By View</button>
+        </div>
+        <div class="blogs">
+          <button class="blogs-btn btn bg-red-600 text-white">Blogs</button>
+        </div>
+      </nav>
+    </header>
 
+    <!-- category  -->
+    <nav id="category-container" class="flex py-5 justify-center gap-5">
+      <button class="btn btn-sm">All</button>
+      <button class="btn btn-sm">All</button>
+      <button class="btn btn-sm">All</button>
+    </nav>
 
-
-    
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
